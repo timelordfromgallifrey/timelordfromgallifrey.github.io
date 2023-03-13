@@ -1,0 +1,155 @@
+#sky{
+position:fixed;	
+width:100%;
+height:40%;	
+background-color:#87CEEB;
+}
+#label{
+	position:absolute;
+	height:40px;
+	width:150px;
+	background-color:#ffff00;
+}
+#pause{
+	position:absolute;
+	height:50px;
+	width:50px;
+	background-color:blue;
+	top:15%;
+}
+#cloud2{
+	position:relative;
+	height:130px;
+	width:170px;
+	left:170px;
+	opacity:0.7;
+	top:14%;
+	animation-name:fly;
+	animation-duration:90s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-fill-mode:both;
+	animation-timing-function:linear;
+	animation-direction:reverse;
+}
+#cloud1{
+	position:relative;
+	height:80px;
+	width:120px;
+	left:170px;
+	top:15%;
+	animation-name:fly;
+	animation-duration:50s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-fill-mode:both;
+	animation-timing-function:linear;
+	animation-direction:reverse;
+}
+
+@keyframes fly{
+from{
+	left:-120px;
+}
+to{
+	left:1350px;
+}
+}
+	
+
+
+
+
+#tree1{
+	position:absolute;
+	top:50%;
+	left:300px;
+	height:160px;
+	width:160px;
+	
+}
+#tree2{
+    position:absolute;
+	top:68%;
+	left:1000px;
+	height:100px;
+	width:100px;
+}
+
+.road{
+	box-sizing:border-box;
+	border-top:10px solid gray;
+	border-bottom:10px solid gray;
+	position:fixed;
+	top:40%;
+	height:60%;
+	width:100%;
+	background-color:#5c7144;
+}
+#car{
+	position:absolute;
+	top:-15%;
+	height:220px;
+	width:250px;
+	left:10px;
+	
+}/*
+   animation:drive 6s 1s both infinite linear;
+}
+@keyframes drive{
+	from
+	{
+		left:-250px
+	}
+    to
+    {
+        left:1350px;
+	}
+}	*/
+.lines1{
+	position:relative;
+	height:7px;
+	width:100%;
+	top:30%;
+	border-top:5px dashed #ffffff;
+}
+.lines2{
+	position:relative;
+	height:7px;
+	width:100%;
+	top:60%;
+	border-top:5px dashed #ffffff;
+}
+#arrow{
+	position:absolute;
+	height:100px;
+	width:100px;
+	top:2%;
+	transform:rotateY(180deg);
+	left:900px;
+}
+#surprise{
+	position:fixed;
+	left:15%;
+	top:15%;
+	width:70%;
+	height:70%;
+	color:red;
+	font-size:100px;
+	background-color:blue;
+	display:none;
+}
+/*#left{
+	position:absolute;
+	top:85%;
+	height:40px;
+	width:60px;
+	left:20px;
+}
+#right{
+	position:absolute;
+	top:85%;
+	height:40px;
+	width:60px;
+	left:100px;
+}*/
